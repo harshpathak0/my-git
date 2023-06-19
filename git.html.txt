@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Payment form</title>
+    </head>
+
+    <body>
+
+<h1>PAYMENT FORM</h1>
+<hr>
+
+<form action="E:\html\.html\thank.html">
+ 
+<label>Name:-</label>
+<input type="text" name="name" placeholder="Enter your name">
+<br>
+<br>
+
+<label>Gender:-</label><br><br>
+Male: <input type="radio" name="Gender"><br>
+Female:<input type="radio"name="Gender"><br><br>
+
+
+<label>Email:-</label>
+<input type="email"  name="email" placeholder="Enter your gmail">
+<br>
+<br>
+
+
+<label>Addess:-</label>
+<input type="text" placeholder="Enter your address">
+<br>
+<br>
+
+
+<label>City:-</label>
+<input type="text" name="city" placeholder="Enter your city">
+<br>
+<br>
+
+
+<label>State:-</label>
+<select>
+    <option value="" disabled selected hidden>Enter your State</option>
+    <option>Madhya Pradesh</option>
+    <option>Bihar</option>
+    <option>Uttar Pradesh</option>
+</select>
+<br>
+<br>
+
+
+<h2>Payment</h2>
+<br>
+
+<label> Card Type:-</label>
+<select>
+    <option value="" disabled selected hidden > choose your card</option>
+    <option > Rupay card</option>
+    <option > Visa card</option>
+    <option > Master card</option>
+</select><br><br>
+
+<label>Card Holder's Name :-</label>
+<input type="text"><br><br>
+
+<label> Card Number:-</label>
+<input type="number"><br><br>
+
+<label>Expire Date</label>
+<input type="date" placeholder="Expire date" > <br><br>
+
+<label>CVV Number</label>
+<input type="password" placeholder="CVV"> 
+<br><br>
+
+<button type="submit">Submit</button>
+<button type="reset">Reset</button>
+
+</form>
+    </body>
+</html>    
